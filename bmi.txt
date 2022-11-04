@@ -1,0 +1,6 @@
+
+  my bmi is 18.92915089237426 on january
+  my bmi is 18.726007303142847 on febraury
+  my bmi is 19.409358296754156 on march
+  my bmi is 18.75 on april
+  my bmi is 10.0 on may
