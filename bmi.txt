@@ -4,3 +4,4 @@
   my bmi is 19.409358296754156 on march
   my bmi is 18.75 on april
   my bmi is 10.0 on may
+  my bmi is 18.75 on july

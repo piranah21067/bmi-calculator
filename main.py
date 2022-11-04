@@ -7,9 +7,14 @@ if option == "1":
     date=(input("enter the month here"))
     bmi=mass/(height*height)
     print(bmi)
-    file=open("bmi.txt", "a")
-    file.write(f"\n  my bmi is {bmi} on {date}")
-    file.close()
+    save=input("would you like to save the file")
+    if save=="yes":
+        file=open("bmi.txt", "a")
+        file.write(f"\n  my bmi is {bmi} on {date}")
+        file.close()
+        print("your information has been saved")
+    else:
+        print("information was not saved")
 else:
     file=open("bmi.txt", "r")
     oldRecords=file.read()
